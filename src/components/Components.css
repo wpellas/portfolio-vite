@@ -1,0 +1,122 @@
+body {
+  background-color: #131316;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.section-container,
+.section {
+  height: 100vh;
+}
+.section-container {
+  overflow: auto;
+  -ms-scroll-snap-type: y mandatory;
+      scroll-snap-type: y mandatory;
+}
+.section {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+
+.projects {
+  margin-top: 1rem;
+  display: flex;
+}
+.project:nth-child(2) {
+  transition-delay: 200ms;
+}
+.project:nth-child(3) {
+  transition-delay: 300ms;
+}
+.project:nth-child(4) {
+  transition-delay: 400ms;
+}
+.project:nth-child(5) {
+  transition-delay: 500ms;
+}
+.project:nth-child(6) {
+  transition-delay: 600ms;
+}
+
+.stealth {
+  opacity: 0;
+}
+.hiddenFade {
+  -webkit-filter: blur(5px);
+          filter: blur(5px);
+  -webkit-transform: scale(0.8);
+      -ms-transform: scale(0.8);
+          transform: scale(0.8);
+  -webkit-transition: 0s;
+  -o-transition: 0s;
+  transition: 0s;
+}
+.hiddenSlide {
+  -webkit-filter: blur(5px);
+          filter: blur(5px);
+  -webkit-transform: translateX(-100%);
+      -ms-transform: translateX(-100%);
+          transform: translateX(-100%);
+  -webkit-transition: 0s;
+  -o-transition: 0s;
+  transition: 0s;
+}
+.reveal {
+  opacity: 1;
+  -webkit-filter: blur(0);
+          filter: blur(0);
+  -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+          transform: translateX(0);
+  -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: 1.2s;
+  -o-transition: 1.2s;
+  transition: 1.2s
+}
+
+@media(prefers-reduced-motion) {
+  .stealth {
+    transition: none;
+  }
+}
+
+@media screen
+and (max-width: 1900px) {
+        .projects {
+          display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: auto;
+        }
+    }
+@media screen
+    and (max-width: 1600px) {
+        .projects {
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: auto;
+        }
+    }
+    @media screen
+and (max-width: 1100px) {
+        .projects {
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: auto;
+        }
+    }
+@media screen
+    and (max-width: 800px) {
+        .projects {
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto;
+        }
+    }

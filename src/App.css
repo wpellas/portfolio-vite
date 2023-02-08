@@ -1,0 +1,11 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #131316;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
