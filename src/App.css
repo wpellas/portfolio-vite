@@ -1,3 +1,17 @@
+*, *::before, *::after { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: -webkit-fill-available;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -5,7 +19,5 @@ html {
 body {
   background-color: #131316;
   color: #ffffff;
-  margin: 0;
-  padding: 0;
   text-align: center;
 }
