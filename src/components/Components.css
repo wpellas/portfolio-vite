@@ -18,6 +18,7 @@
   scroll-snap-align: start;
   scroll-snap-stop: always;
   box-sizing: border-box;
+  object-fit: contain;
 }
 
 .projects {

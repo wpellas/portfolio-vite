@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
     return (
-        <div className="section px-4 content-start sm:content-center pt-6 sm:pt-0">
+        <div className="section px-4">
             <div className="stealth hiddenFade">
                 <p className="text-2xl sm:text-5xl text-left">About me</p>
                 <div className="container grid grid-rows-1 grid-cols-1 xl:grid-cols-2 gap-2 justify-center sm:gap-12 mt-4">
