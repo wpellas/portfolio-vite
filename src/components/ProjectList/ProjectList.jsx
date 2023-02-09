@@ -4,7 +4,7 @@ import Smartbrain from "../../assets/smartbrain.webp";
 import PokeDB from "../../assets/pokedb.webp";
 import Robofriends from "../../assets/robofriends.webp";
 import Minecraft from "../../assets/minecraft.webp";
-import Calculator from "../../assets/calculator.webp";
+import Blockchain from "../../assets/Blockchain.webp";
 import "../Components.css";
 
 
@@ -18,10 +18,18 @@ function ProjectList() {
             imgUrl: Smartbrain,
             projectUrl: "https://williampellas.com/smartbrain/",
             faIcons: ["fa-brands fa-react", "fa-brands fa-node-js", "fa-solid fa-database"]
-            
         },
         {
             id: 2,
+            name: "Blockchain",
+            type: "Vite, React, Tailwind",
+            imgUrl: Blockchain,
+            projectUrl: "https://williampellas.com/blockchain/",
+            faIcons: ["fa-brands fa-react", "fa-solid fa-file-code"]
+            
+        },
+        {
+            id: 3,
             name: "Pokemon DB",
             type: "React, API",
             imgUrl: PokeDB,
@@ -29,7 +37,7 @@ function ProjectList() {
             faIcons: ["fa-brands fa-react"]
         },
         {
-            id: 3,
+            id: 4,
             name: "Robofriends",
             type: "React, API",
             imgUrl: Robofriends,
@@ -37,21 +45,13 @@ function ProjectList() {
             faIcons: ["fa-brands fa-react"]
         },
         {
-            id: 4,
+            id: 5,
             name: "Minecraft HUD",
             type: "Vanilla HTML/CSS, JavaScript",
             imgUrl: Minecraft,
             projectUrl: "https://williampellas.com/minecraft/",
             faIcons: ["fa-brands fa-html5", "fa-brands fa-css3-alt", "fa-brands fa-square-js"]
         },
-        {
-            id: 5,
-            name: "Calculator",
-            type: "Vanilla HTML/CSS, JavaScript",
-            imgUrl: Calculator,
-            projectUrl: "https://williampellas.com/calculator/",
-            faIcons: ["fa-brands fa-html5", "fa-brands fa-css3-alt", "fa-brands fa-square-js"]
-        }
     ];
 
     return (
