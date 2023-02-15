@@ -1,7 +1,6 @@
 import React from "react";
 import "../Components.css";
 
-
 function Merits() {
     const skills = ["HTML5 & CSS3", "JavaScript & TypeScript", "React.js", "Tailwind", "Node.js & Express.js", "PostgreSQL & MySQL", "Illustrator & SVG", "Agile Project Methodology", "Scrum & Trello", "Project Management", "Photography", "Livestreaming", "Adobe Suite", "3D Graphics", "Copyright"];
     let key = 0;

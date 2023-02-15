@@ -12,5 +12,4 @@ const TitleCard = () => (
     </section>
 )
 
-
 export default TitleCard;

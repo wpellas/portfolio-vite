@@ -9,5 +9,4 @@ const Contact = ({ icons }) => (
     </section>
 )
 
-
 export default Contact;

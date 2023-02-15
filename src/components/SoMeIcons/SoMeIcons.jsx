@@ -18,5 +18,4 @@ const SoMeIcons = ({ icons }) => (
     </div>
 )
 
-
 export default SoMeIcons;

@@ -115,7 +115,7 @@ function App() {
 //------------------------------------------------------//
 
   return (
-    <main className="App text-xs sm:text-sm lg:text-xl section-container bg-cover bg-gradient-to-b from-gray-900 to-slate-900 text-cyan-300">
+    <main className="text-xs sm:text-sm lg:text-xl section-container bg-cover bg-gradient-to-b from-gray-900 to-slate-900 text-cyan-300">
         <TitleCard />
         <ProjectList projects={projects}/>
         <Skills />
