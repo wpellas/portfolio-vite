@@ -9,7 +9,7 @@ Uses react useEffect with an observer that adds a class to an intersecting objec
 
 ### Scroll Snap
 
-Scroll snap in css, using semantic html to wrap the react project in a <main>, with each section marked as a <section>. Ensures smooth animations every time a new section is loaded, regardless of scroll speed.
+Scroll snap in css, using semantic html to wrap the react project in a main tag, with each section marked as a section tag. Ensures smooth animations every time a new section is loaded, regardless of scroll speed.
 
 ### Project Cards
 
