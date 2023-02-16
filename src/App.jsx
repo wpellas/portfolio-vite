@@ -6,7 +6,7 @@ import Contact from "./components/Contact/Contact";
 import Smartbrain from "./assets/smartbrain.webp";
 import PokeDB from "./assets/pokedb.webp";
 import Robofriends from "./assets/robofriends.webp";
-import Minecraft from "./assets/minecraft.webp";
+import Fikapaus from "./assets/fikapaus.webp";
 import Blockchain from "./assets/blockchain.webp";
 import "./App.css"
 import "./components/Components.css"
@@ -43,16 +43,24 @@ function App() {
         faIcons: ["fa-brands fa-react", "fa-brands fa-node-js", "fa-solid fa-database"]
     },
     {
-        id: 2,
+      id: 2,
+      name: "Fikapaus",
+      type: "React, Tailwind, TypeScript",
+      imgUrl: Fikapaus,
+      projectUrl: "https://williampellas.com/fikapaus/",
+      faIcons: ["fa-brands fa-react", "fa-solid fa-file-code"]
+    },
+    {
+        id: 3,
         name: "Blockchain",
-        type: "Vite, React, Tailwind",
+        type: "React, Tailwind",
         imgUrl: Blockchain,
         projectUrl: "https://williampellas.com/blockchain/",
         faIcons: ["fa-brands fa-react", "fa-solid fa-file-code"]
         
     },
     {
-        id: 3,
+        id: 4,
         name: "Pokemon DB",
         type: "React, API",
         imgUrl: PokeDB,
@@ -60,21 +68,13 @@ function App() {
         faIcons: ["fa-brands fa-react"]
     },
     {
-        id: 4,
+        id: 5,
         name: "Robofriends",
         type: "React, API",
         imgUrl: Robofriends,
         projectUrl: "https://williampellas.com/robofriends/",
         faIcons: ["fa-brands fa-react"]
-    },
-    {
-        id: 5,
-        name: "Minecraft HUD",
-        type: "Vanilla HTML/CSS, JavaScript",
-        imgUrl: Minecraft,
-        projectUrl: "https://williampellas.com/minecraft/",
-        faIcons: ["fa-brands fa-html5", "fa-brands fa-css3-alt", "fa-brands fa-square-js"]
-    },
+    }
 ];
 //------------------------------------------------------//
 
