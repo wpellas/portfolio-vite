@@ -1,6 +1,7 @@
 import React from "react";
+import { icons } from "../../constants/index";
 
-const SoMeIcons = ({ icons }) => (
+const SoMeIcons = () => (
     <div className="stealth hiddenFade w-[100%]">
         <ul className="flex justify-center my-10 gap-2 sm:gap-8">
             {
