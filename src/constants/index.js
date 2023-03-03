@@ -1,8 +1,8 @@
 import Smartbrain from "../assets/smartbrain.webp";
-import PokeDB from "../assets/pokedb.webp";
 import AllAboutDogs from "../assets/allaboutdogs.webp";
 import Fikapaus from "../assets/fikapaus.webp";
 import Blockchain from "../assets/blockchain.webp";
+import PokeDB from "../assets/pokedb.webp";
 
 // This file lets you edit all constants that the page components include
 // Makes the code less messy and easier to interpret.
