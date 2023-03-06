@@ -27,7 +27,7 @@ export const projects = [
     {
       id: 3,
       name: "Fikapaus",
-      type: "React, Tailwind, TypeScript",
+      type: "React, TypeScript, Tailwind",
       imgUrl: Fikapaus,
       projectUrl: "https://williampellas.com/fikapaus/",
       faIcons: ["fa-brands fa-react", "fa-solid fa-file-code"]
@@ -49,6 +49,24 @@ export const projects = [
         projectUrl: "https://williampellas.com/pokedb/",
         faIcons: ["fa-brands fa-react"]
     }
+];
+
+export const skills = [
+    "HTML5 & CSS3",
+    "JavaScript & TypeScript",
+    "WordPress & PHP",
+    "React.js",
+    "Tailwind",
+    "Node.js & Express.js",
+    "PostgreSQL & MySQL",
+    "Illustrator & SVG",
+    "Agile Project Methodology",
+    "Scrum & Trello",
+    "Project Management",
+    "Photography",
+    "Livestreaming",
+    "Adobe Suite",
+    "3D Graphics"
 ];
 
 export const icons = [
@@ -89,21 +107,3 @@ export const icons = [
         id: 6
     }
 ]
-
-export const skills = [
-    "HTML5 & CSS3",
-    "JavaScript & TypeScript",
-    "WordPress & PHP",
-    "React.js",
-    "Tailwind",
-    "Node.js & Express.js",
-    "PostgreSQL & MySQL",
-    "Illustrator & SVG",
-    "Agile Project Methodology",
-    "Scrum & Trello",
-    "Project Management",
-    "Photography",
-    "Livestreaming",
-    "Adobe Suite",
-    "3D Graphics"
-];

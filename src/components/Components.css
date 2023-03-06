@@ -2,6 +2,7 @@
 .section-container,
 .section {
   height: 100vh;
+  height: 100dvh;
 }
 .section-container {
   overflow: auto;

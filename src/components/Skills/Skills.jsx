@@ -9,7 +9,7 @@ function Merits() {
             <p className="stealth hiddenFade text-2xl sm:text-5xl text-center mb-4"><i className="fa-solid fa-code text-amber-300"></i> Skills</p>
 
             <div className="stealth hiddenSlide text-left sm:text-center text-xs sm:text-lg lg:text-2xl">
-                    <ul className="grid-cols-2 grid-rows-8 grid sm:grid-cols-3 sm:grid-rows-5">
+                    <ul className="grid-cols-2 gap-x-4 grid-rows-8 grid sm:grid-cols-3 sm:grid-rows-5">
                     {
                             skills.map((item) => (
                                     <li key={`skills_${key++}`} className="my-0 lg:my-1">{item.toLowerCase()}</li>
