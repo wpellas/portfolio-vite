@@ -1,5 +1,5 @@
 import React from "react";
-import avatar from "./avatar.webp"
+import avatar from "../../assets/avatar.webp"
 import "../Components.css"
 
 const TitleCard = () => (
