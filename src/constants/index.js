@@ -1,7 +1,7 @@
 import Smartbrain from "../assets/smartbrain.webp";
 import AllAboutDogs from "../assets/allaboutdogs.webp";
 import Fikapaus from "../assets/fikapaus.webp";
-import Blockchain from "../assets/blockchain.webp";
+import StudioMimir from "../assets/studiomimir.webp";
 import PokeDB from "../assets/pokedb.webp";
 
 // This file lets you edit all constants that the page components include
@@ -10,6 +10,14 @@ import PokeDB from "../assets/pokedb.webp";
 export const projects = [
     {
         id: 1,
+        name: "Studio Mimir",
+        type: "Blade/Sage, ACF, Tailwind",
+        imgUrl: StudioMimir,
+        projectUrl: "https://studiomimir.se/",
+        faIcons: ["fa-brands fa-laravel", "fa-brands fa-wordpress", "fa-solid fa-database"]
+    },
+    {
+        id: 2,
         name: "Smartbrain",
         type: "React, Node, Postgres, REST",
         imgUrl: Smartbrain,
@@ -17,7 +25,7 @@ export const projects = [
         faIcons: ["fa-brands fa-react", "fa-brands fa-node-js", "fa-solid fa-database"]
     },
     {
-      id: 2,
+      id: 3,
       name: "AllAboutDogs",
       type: "Wordpress, ACF, Tailwind",
       imgUrl: AllAboutDogs,
@@ -25,21 +33,12 @@ export const projects = [
       faIcons: ["fa-brands fa-wordpress", "fa-brands fa-php"]
     },
     {
-      id: 3,
+      id: 4,
       name: "Fikapaus",
       type: "React, TypeScript, Tailwind",
       imgUrl: Fikapaus,
       projectUrl: "https://williampellas.com/fikapaus/",
       faIcons: ["fa-brands fa-react", "fa-solid fa-file-code"]
-    },
-    {
-        id: 4,
-        name: "Blockchain",
-        type: "React, Tailwind",
-        imgUrl: Blockchain,
-        projectUrl: "https://williampellas.com/blockchain/",
-        faIcons: ["fa-brands fa-react", "fa-solid fa-file-code"]
-        
     },
     {
         id: 5,
@@ -53,10 +52,13 @@ export const projects = [
 
 export const skills = [
     "HTML5 & CSS3",
-    "JavaScript & TypeScript",
+    "JavaScript & React.js",
     "WordPress & PHP",
-    "React.js",
-    "Tailwind",
+    "Laravel & Blade",
+    "Tailwind & Sass",
+    "ACF & WooCommerce",
+    "Git, SSH & Ftp",
+    "Roots Ecosystem",
     "Node.js & Express.js",
     "PostgreSQL & MySQL",
     "Illustrator & SVG",
