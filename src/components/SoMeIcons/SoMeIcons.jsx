@@ -3,7 +3,7 @@ import { icons } from "../../constants/index";
 
 const SoMeIcons = () => (
     <div className="stealth hiddenFade w-[100%]">
-        <ul className="flex justify-center my-10 gap-2 sm:gap-8">
+        <ul className="flex flex-wrap lg:flex-nowrap justify-center my-10  gap-8">
             {
                 icons.map((item) => (
                         <li key={item.id}>

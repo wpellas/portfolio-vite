@@ -1,23 +1,19 @@
-*, *::before, *::after { 
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+*,
+*::before,
+*::after {
+  @apply m-0 p-0 box-border;
 }
 
-body, html {
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
+body,
+html {
+  @apply h-full w-full m-0 p-0;
   height: -webkit-fill-available;
 }
 
 html {
-  scroll-behavior: smooth;
+  @apply scroll-smooth;
 }
 
 body {
-  background-color: #131316;
-  color: #ffffff;
-  text-align: center;
+  @apply text-white text-center bg-primarybg;
 }
